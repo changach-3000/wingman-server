@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :farmers
  
 
   post "/login", to:"session#login"
